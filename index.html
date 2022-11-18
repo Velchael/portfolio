@@ -198,8 +198,8 @@
                    <ul>
                      <p>Quer entar em contato comigo ?</p>
                      <p>Preenche o formulário em<strong> BAIXO </strong> e entrarei em contato o mais rápido possível.</p> 
-                     <p style="color:#ffffff"><STRONG>Facebook,
-                      instagram, Whatsapp</strong></p>
+                     <p style="color:#ffffff"><STRONG>Facebook ,
+                      instagram , Whatsapp , Youtube ...</strong></p>
                    </ul>
                 
                    <div>
@@ -227,29 +227,63 @@
                       </svg>
               
                     </a>
+
+                    <a href="https://youtube.com/channel/UCA6X6RulyTFCU32odRUqIXA" class="botao botao__primario">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-youtube" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ff2825" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <rect x="3" y="5" width="18" height="14" rx="4"></rect>
+                        <path d="M10 9l5 3l-5 3z"></path>
+                      </svg>
+              
+                    </a>
+
                   </div>
                   
-                </div> 
-                <div>
-                 <form action="/pagina-processa-dados-do-form" method="post">
-                  <div>
-                      <label for="name">Nome:</label>
-                      <input type="text" id="name" />
+                </div>                              
+                <div class="container">
+                 <form class="form" id="form">
+                  <div class="form-control">
+                      <label for="username">Nome:</label>
+                      <input type="text" id="username">
+
+                      <i class="img-success" ><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-check" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00b341" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <path d="M5 12l5 5l10 -10"></path>
+                      </svg></i>
+                      <i class="img-error" ><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-alert-circle" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ff2825" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <circle cx="12" cy="12" r="9"></circle>
+                        <line x1="12" y1="8" x2="12" y2="12"></line>
+                        <line x1="12" y1="16" x2="12.01" y2="16"></line>
+                      </svg></i>
+                      <small>Error Message</small>
                   </div>
-                  <div>
-                      <label for="mail">E-mail:</label>
-                      <input type="email" id="mail" />
+
+                  <div class="form-control">        
+                      <label for="email">E-mail:</label>
+                      <input type="email" id="email">
+                      <i class="img-success" ><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-check" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00b341" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <path d="M5 12l5 5l10 -10"></path>
+                      </svg></i>
+                      <i class="img-error" ><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-alert-circle" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ff2825" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <circle cx="12" cy="12" r="9"></circle>
+                        <line x1="12" y1="8" x2="12" y2="12"></line>
+                        <line x1="12" y1="16" x2="12.01" y2="16"></line>
+                      </svg></i>
+                      <small>Error Message</small>                  
                   </div>
                   <div>
                       <label for="msg">Mensagem:</label>
                       <textarea id="msg"></textarea>
                   </div>
-                  <div class="buttonrodapie">
+                  <div class="button">
                       <button type="submit">Enviar sua mensagem</button>
                   </div>
                  </form>
-                </div>
-              
+                </div>            
               </footer>
+              <script src="index.js"></script>
       </body>      
   </html>
