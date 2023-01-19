@@ -375,6 +375,11 @@ img {
     transition: 0.3s;
 }
 
+.form textarea {
+  min-height: 7rem;
+  resize: vertical;
+}
+
 /*  car de salvador de baia
  <span class="card__titulo">Salvador, onde tudo começou...</span>
                      <span class="card__servico">Guia turístico, Tradutor, Transporte</span>
@@ -398,4 +403,13 @@ img {
                       <span class="card__titulo">comer agora </span>
                      </span>
                    </div>*/
-                   
+/* <input type="hidden" name="_captcha" value="false" />
+  <input
+  type="hidden"
+  name="_next"
+  value="https://127.0.0.1:5500/obrigado.html"
+  />*/                   
+
+ /* javesscrit
+ 
+ <script src="index.js"></script>*/

@@ -242,49 +242,35 @@
                   
                 </div>                              
                 <div class="container">
-                 <form class="form" id="form">
+                 <form class="form" id="form" action="https://formsubmit.co/stalinmendez69@gmail.com"
+                 method="POST">
+                 <div class="form-control">
+                  <label for="name">Nome</label>
+                  <input type="text" name="name" id="name" required placeholder="NOME E SOBRENOME" autofocus pattern="[^ \d]{2,} +[^ \d]{2,}.*" title="Informe um nome e um sobrenome" />
+                </div>      
+                 <div class="form-control">
+                  <label for="email">E-mail</label>
+                  <input type="email" name="email" id="email" required placeholder="E-mail" pattern="[\w\d]+@[\w\d]+\.[\w\d]+" title="informe um E-mail valido"/>
+                 </div>
+                 <div class="form-control" >
+                  <label for="message">Mensagem</label>
+                  <textarea name="message" id="message" required placeholder="Escreva Mensagem" maxlength="140"></textarea>
+                 </div>
+                 <input type="hidden" name="_captcha" value="false" />
+                 <input
+                  type="hidden"
+                  name="_next"
+                  value="https://velchael.github.io/portfolio/Obrigado.html"
+              
+                 />
                   <div class="form-control">
-                      <label for="username">Nome:</label>
-                      <input type="text" id="username">
-
-                      <i class="img-success" ><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-check" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00b341" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                        <path d="M5 12l5 5l10 -10"></path>
-                      </svg></i>
-                      <i class="img-error" ><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-alert-circle" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ff2825" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                        <circle cx="12" cy="12" r="9"></circle>
-                        <line x1="12" y1="8" x2="12" y2="12"></line>
-                        <line x1="12" y1="16" x2="12.01" y2="16"></line>
-                      </svg></i>
-                      <small>Error Message</small>
-                  </div>
-
-                  <div class="form-control">        
-                      <label for="email">E-mail:</label>
-                      <input type="email" id="email">
-                      <i class="img-success" ><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-check" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00b341" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                        <path d="M5 12l5 5l10 -10"></path>
-                      </svg></i>
-                      <i class="img-error" ><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-alert-circle" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ff2825" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                        <circle cx="12" cy="12" r="9"></circle>
-                        <line x1="12" y1="8" x2="12" y2="12"></line>
-                        <line x1="12" y1="16" x2="12.01" y2="16"></line>
-                      </svg></i>
-                      <small>Error Message</small>                  
-                  </div>
-                  <div>
-                      <label for="msg">Mensagem:</label>
-                      <textarea id="msg"></textarea>
-                  </div>
-                  <div class="button">
-                      <button type="submit">Enviar sua mensagem</button>
+                   <button type="submit">Enviar</button>
                   </div>
                  </form>
                 </div>            
-              </footer>
-              <script src="index.js"></script>
+              </footer>  
+        
       </body>      
   </html>
+
+  
